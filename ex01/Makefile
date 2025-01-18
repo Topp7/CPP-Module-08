@@ -6,7 +6,7 @@
 #    By: stopp <stopp@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/13 17:55:12 by stopp             #+#    #+#              #
-#    Updated: 2025/01/15 12:23:10 by stopp            ###   ########.fr        #
+#    Updated: 2025/01/17 18:23:51 by stopp            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,6 +26,7 @@ CFLAGS := -Wall -Wextra -Werror -std=c++17
 # Directories and Files
 OBJDIR := obj
 SRC :=	src/main.cpp \
+		src/Span.cpp
 
 OBJ := $(SRC:%.cpp=$(OBJDIR)/%.o)
 
