@@ -6,7 +6,7 @@
 /*   By: stopp <stopp@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/16 18:17:27 by stopp             #+#    #+#             */
-/*   Updated: 2025/01/16 18:35:34 by stopp            ###   ########.fr       */
+/*   Updated: 2025/01/19 15:25:53 by stopp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	main(void)
 	std::cout << "--- Test list Container" << std::endl;
 	std::list<int> list;
 
-	for (int i = 0; i < 100.0f; i++)
+	for (int i = 0; i < 100; i++)
 		list.push_back(i);
 	try
 	{
